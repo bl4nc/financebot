@@ -18,8 +18,8 @@ Este é um bot do Telegram escrito em TypeScript que permite aos usuários adici
 
 1. **Clone este repositório**:
     ```bash
-    git clone https://github.com/seu-usuario/nome-do-repositorio.git
-    cd nome-do-repositorio
+    git clone https://github.com/bl4nc/financebot
+    cd financebot
     ```
 
 2. **Instale as dependências**:
@@ -43,13 +43,13 @@ Este é um bot do Telegram escrito em TypeScript que permite aos usuários adici
 4. **Rodando o Bot Localmente**:
     Para rodar o bot localmente, use o comando:
     ```bash
-    npx ts-node src/index.ts
+    npx ts-node main.ts
     ```
 
 5. **Rodando em Produção com PM2**:
     Para rodar o bot em produção utilizando PM2:
     ```bash
-    pm2 start src/index.ts --interpreter ts-node
+    pm2 start ecosystem.config.js --env production
     ```
 
 ## Como Funciona
@@ -70,7 +70,3 @@ Este é um bot do Telegram escrito em TypeScript que permite aos usuários adici
 ## Contribuição
 
 Sinta-se à vontade para enviar pull requests e abrir issues para melhorias ou correções.
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
