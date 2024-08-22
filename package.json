@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "googleapis": "^142.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "typescript-telegram-bot-api": "^0.2.1"
+  }
+}
